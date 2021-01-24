@@ -31,6 +31,18 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+.main-nav .background-additional-image {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(196, 85, 85);
+  transition: all .5s;
+
+}
+.main-nav .background-additional-image:hover {
+  transform: scale(1.2) rotate(-1800deg);
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,7 +69,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/photo-1477959858617-67f85cf4f1df.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +86,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.8) rotate(360deg);
+  transform: scale(1.4) rotate(360deg);
 }
 .tag {
   background-color: yellow;
