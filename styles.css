@@ -31,18 +31,6 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.main-nav .background-additional-image {
-  margin-top: 5px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid rgb(196, 85, 85);
-  transition: all .5s;
-
-}
-.main-nav .background-additional-image:hover {
-  transform: scale(1.2) rotate(-1800deg);
-}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -109,6 +97,18 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.card .background-additional-image {
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(196, 85, 85);
+  transition: all .5s;
+
+}
+.card .background-additional-image:hover {
+  transform: scale(1.2) rotate(-1800deg);
 }
 .card:hover {
   border-color: #ff99ff;
